@@ -4,6 +4,8 @@ Entreprise: DGEP
 Description: Calculatrice
 
 Voici les ordres du programme Calculatrice  :
+
+//Voilaaa enfin réussi
 	
 	Créer une zone mémoire #Ta avec le texte "\nChoississez une opération parmi: +, -, x,/, 1/X, racine, ^, X/100:  \n".                 
 	Créer une zone mémoire #Tb avec le texte "\nInsérez un nombre: \n".
