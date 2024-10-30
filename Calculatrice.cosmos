@@ -1,0 +1,73 @@
+Auteur: ps41jgh
+Date: 28.10.2024
+Entreprise: DGEP
+Description: Calculatrice
+
+Voici les ordres du programme Calculatrice  :
+	
+	Créer une zone mémoire #Ta avec le texte "\nChoississez une opération parmi: +, -, x,/, 1/X, racine, ^, X/100:  \n".                 
+	Créer une zone mémoire #Tb avec le texte "\nInsérez un nombre: \n".
+	Créer une zone mémoire #Tc avec le texte "\nInsérez un autre nombre: \n".
+	
+	Créer une zone mémoire #addition avec le texte "+".
+	Créer une zone mémoire #soustraction avec le texte "-".
+	Créer une zone mémoire #multiplication avec le texte "*".
+	Créer une zone mémoire #division avec le texte "/".
+	Créer une zone mémoire #division avec le texte "^".
+	Créer une zone mémoire #division avec le texte "1/X".
+	Créer une zone mémoire #division avec le texte "X/100".
+	Créer une zone mémoire #division avec le texte "racine".
+	Créer une zone mémoire #rr.
+	
+	Afficher "#Ta".
+	Créer une zone mémoire #r1.
+	Récupérer la saisie et la stocker dans la zone mémoire #r1.
+	
+	Afficher "#Tb".
+	Créer une zone mémoire #N1.	
+	Récupérer la saisie et la stocker dans la zone mémoire #N1.
+	
+	Afficher "#Tc".
+	Créer une zone mémoire #N2.
+	Récupérer la saisie et la stocker dans la zone mémoire #N2.
+	
+	Si "#r1" est égale à "+" alors 
+		 #rr = #N1 + #N2.
+		Afficher "\n Le résultat est: #rr\n".
+	?
+	Si "#r1" est égale à "-" alors 
+		#rr = #N1 - #N2.
+		Afficher "\n Le résultat est: #rr\n".
+	?
+	Si "#r1" est égale à "*" alors 
+		#rr = #N1 * #N2.
+		Afficher "\n Le résultat est: #rr\n".
+	?
+	Si "#r1" est égale à "^" alors
+		#rr = #N1 ^ #N2.
+		Afficher "\n Le résultat est: #rr\n".
+	?	
+	Si "#r1" est égale à "1/X" alors
+		#rr = 1 / #N1.
+		Afficher "\n Le résultat est: #rr\n".
+	?	
+	Si "#r1" est égale à "X/100" alors
+		#rr = #N1 / 100.
+		Afficher "\n Le résultat est: #rr\n".
+	?	
+	Si "#r1" est égale à "/" alors 
+		#rr = #N1 / #N2.
+		Afficher "\n Le résultat est: #rr\n".
+	?
+	Si "#r1" est égale à "racine" alors 
+		#rr = racine carrée de #N1.
+		Afficher "\n Le résultat est: #rr\n".
+	?	
+	
+	
+	
+	
+	
+
+
+Fin de la transmission.
